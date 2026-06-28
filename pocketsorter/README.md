@@ -63,38 +63,9 @@ Blocked items and categories are saved automatically per chest.
 
 ## Known Issues
 
-- **Warehouse:** Only works after right-clicking the NPC to open it (interacting with F doesn't work due to server limitations)
-- **Anywhere warehouse:** Not supported (server limitation)
 - **Storage closes mid-sort:** If the UI closes after a move, the API may cache stale data; no items are lost, but retry manually
-- **Bound vs. Unbound:** If the chest has an unbound item and you have a bound version, PocketSorter may attempt to transfer it (lock the item to prevent)
+- **Bound/Unbound items:** If the chest has an unbound item and you have a bound version, PocketSorter may attempt to transfer it (lock the item to prevent)
 - **Multiple duplicate chests:** Currently differentiates chests by itemType only; if you have identical pocket chests, blacklists apply to all of them
-
-## Technical Details
-
-### How It Works
-
-1. Scans the open storage container for item types
-2. Searches your inventory for items of the same type
-3. Moves matching items one by one (with 225ms delays to respect server cooldowns)
-4. Skips locked, pinned, and blacklisted items
-5. Reports progress in system chat
-
-### Module Architecture
-
-- **pocketsorter.lua** - main hotkey handler, storage logic, UI buttons
-- **scanner.lua** - scans storage containers and inventory, matches items by type
-- **blacklist.lua** - manages blacklist data (load/save, query functions)
-- **blacklist_ui.lua** - in-game UI for blacklist management with chest/category/item pages
-- **chest_filter.lua** - category filters for each pocket chest type
-
-## Troubleshooting
-
-| Issue | Solution |
-|-------|----------|
-| Addon not loading | Check `ArcheRage.log` for API errors; ensure API Type is available |
-| Items not moving | Check if items are locked or pinned; verify blacklist isn't blocking them |
-| Buttons don't appear | Close and reopen the pocket chest; buttons only render when the window is active |
-| Wrong items moved | Check blacklist settings; individual items may be mistakenly unblocked |
 
 ## Changelog
 
