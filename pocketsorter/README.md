@@ -11,6 +11,7 @@ That's a past problem, you open chest, press a button, and that's it! Clean inve
 
 Pocketsorter lets you automatically store items in chests / pocket chests / warehouse etc.
 
+Gif is from 1.4, buttons got added in 1.5, scroll down for more..
 ![Example](https://i.imgur.com/mbxneT4.gif)
 
 ## Features
@@ -35,7 +36,7 @@ Pocketsorter lets you automatically store items in chests / pocket chests / ware
 
 Keybinds can be customized in `pocketsorter.lua`.
 
-### Pocket Chest Buttons
+### Pocket Chest Buttons (1.5+)
 
 ![Buttons](https://i.imgur.com/M2EN0D8.png)
 
@@ -45,7 +46,7 @@ When a pocket chest is open, three buttons appear:
 - **Store Everything** - store all items by pre-existing chest categories (same as `Ctrl+S` hold)
 - **Blacklist Settings** - open the blacklist UI for the open chest
 
-### Blacklist Management
+### Blacklist Management (1.5+)
 
 ![Blacklist](https://i.imgur.com/SfMA9fO.png)
 
