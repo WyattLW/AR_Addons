@@ -11,6 +11,8 @@ That's a past problem, you open chest, press a button, and that's it! Clean inve
 
 Pocketsorter lets you automatically store items in chests / pocket chests / warehouse etc.
 
+<img width="1096" height="888" alt="Pocket(1)" src="https://github.com/user-attachments/assets/f6d98980-34ff-4653-af49-00be7beabf72" />
+
 ## Features
 
 - **Storage type detection** - It automatically understands what type of storage you have open!
