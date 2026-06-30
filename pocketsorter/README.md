@@ -11,7 +11,7 @@ That's a past problem, you open chest, press a button, and that's it! Clean inve
 
 Pocketsorter lets you automatically store items in chests / pocket chests / warehouse etc.
 
-<img width="1096" height="888" alt="Pocket(1)" src="https://github.com/user-attachments/assets/f6d98980-34ff-4653-af49-00be7beabf72" />
+![Example](https://i.imgur.com/mbxneT4.gif)
 
 ## Features
 
@@ -37,8 +37,7 @@ Keybinds can be customized in `pocketsorter.lua`.
 
 ### Pocket Chest Buttons
 
-<img width="428" height="329" alt="immagine" src="https://github.com/user-attachments/assets/c7a1dd2a-be80-41e1-91cf-3c532860cb99" />
-
+![Buttons](https://i.imgur.com/M2EN0D8.png)
 
 When a pocket chest is open, three buttons appear:
 
@@ -48,7 +47,7 @@ When a pocket chest is open, three buttons appear:
 
 ### Blacklist Management
 
-<img width="478" height="563" alt="immagine" src="https://github.com/user-attachments/assets/687ccca7-fab6-47ff-845d-33c5a17dc1f8" />
+![Blacklist](https://i.imgur.com/SfMA9fO.png)
 
 Open **ESC > System > PS Blacklist** to access the blacklist UI:
 
